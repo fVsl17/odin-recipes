@@ -1,0 +1,25 @@
+
+#layout {
+    text-align:center;
+}
+.corp {
+    background-color:orangered;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.titlu, .poza-lasagna {
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li p{
+    list-style-position:inside;
+}
+
+ol li {
+    list-style-position:inside;
+}

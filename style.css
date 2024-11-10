@@ -1,0 +1,63 @@
+
+
+#all-content{
+    background-color: aquamarine;
+}
+
+#all-of-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.main-title{
+    text-align:center;
+}
+
+#list-of-recipes{
+    height: auto;
+    width: 200px;
+    background-color:cornflowerblue;
+    padding:50px;
+    border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    gap:95px;
+}
+
+.lista{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    flex: initial;
+}
+
+
+.link-1, .link-2, .link-3 {
+    text-align:center;
+    margin-bottom:20px;
+    font-size: 30px;
+    border: solid crimson;
+    flex: auto;
+}
+
+.text-1, .text-2, .text-3 {
+    color:black;
+}
+
+
+.text-1:hover, .text-2:hover, .text-3:hover{
+    color:green;
+    transition-duration:0.45s;
+}
+
+.text-1:not(:hover), .text-2:not(:hover), .text-3:not(:hover){
+    color:black;
+    transition-duration:0.45s;
+}
